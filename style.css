@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 500px;
+  height: 725px;
+  border: solid 1px black;
+}
+
+h1 {
+  color: green;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 75px;
+}
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  height: 700px;
+}
+
+p {
+  font-size: 20px;
+  width: 200px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  box-shadow: 1px 1px 1px;
+  background-color: green;
+  color: white;
+}
