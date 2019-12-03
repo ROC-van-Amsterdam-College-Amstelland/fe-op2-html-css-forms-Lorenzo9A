@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  main {
+    width: 500px;
+    height: 450px;
+    border: solid 1px black;
+    background-color: grey;
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
+    color: white;
+  }
+  h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+
+
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 350px;
+    height: 200px;
+    
+  }
+  
+  p {
+    font-size: 20px;
+    width: 200px;
+    color: white;
+  }
+  
+  
+  button {
+    box-shadow: 1px 1px 1px;
+    background-color: blue;
+    color: white;
+    margin-left: 50px;
+    width: 350px;
+  }
+  .Links{
+    display: flex;
+    flex-direction: column;
+
+  }
